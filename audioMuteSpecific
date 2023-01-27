@@ -1,0 +1,13 @@
+import maya.cmds as cmds
+
+muteVar = cmds.getAttr('FINAL_audio.mute')
+
+if muteVar == cmds.getAttr('FINAL_audio.mute') == False:
+    cmds.setAttr('FINAL_audio.mute', 1)
+    muteVar = cmds.getAttr('FINAL_audio.mute')
+    print("Audio Muted")
+    
+else:
+    cmds.setAttr('FINAL_audio.mute', 0)
+    muteVar = cmds.getAttr('FINAL_audio.mute')
+    print("Audio UnMuted")
