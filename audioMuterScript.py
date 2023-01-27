@@ -37,10 +37,3 @@ class audioMuter:
             cmds.setAttr('{}.mute'.format(self.audioName), 0)
             self.muteVar = False
             print("Audio UnMuted")
-
-
-#import audioMuterScript as aMS
-#aMST = aMS.audioMuter()
-
-#import audioMuterScript as aMS
-#aMST.muteToggle()
