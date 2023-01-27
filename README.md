@@ -1,6 +1,6 @@
 # AudioMute_Maya
 
-1. Download the audioMuterScript.py file, and place it in your scripts folder where your Maya is installed. 
+1. Download the audioMuterScript.py file (right click Raw and select Save Link As...) and place it in your scripts folder where your Maya is installed. 
 
 2. Copy the following lines and make them a button inside of Maya.
 
